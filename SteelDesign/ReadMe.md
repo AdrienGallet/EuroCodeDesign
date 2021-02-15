@@ -28,6 +28,17 @@ This document highlights how a universal steel design script based on EC3 rules 
 1. Specify the section and member properties
  * Section name (from selection available)
  * Member length
+ * Restraint conditions
 
 2. Specify a combination of cross-sectional forces
- * N<sub>t,Ed</sub> (Axial tension), N<sub>c,Ed</sub> (Axial compression), V<sub>z,Ed</sub> (Major axis shear), V<sub>y,Ed</sub> (Minor axis shear),  M<sub>y,Ed</sub> (Major axis bending), M<sub>z,Ed</sub> (Minor axis bending),  T<sub>Ed</sub> (Torsion)
+ * N<sub>t,Ed</sub> (Axial tension)
+ * N<sub>c,Ed</sub> (Axial compression)
+ * V<sub>z,Ed</sub> (Major axis shear)
+ * V<sub>y,Ed</sub> (Minor axis shear)
+ * M<sub>y,Ed</sub> (Major axis bending)
+ * M<sub>z,Ed</sub> (Minor axis bending)
+ * T<sub>Ed</sub> (Torsion)
+
+3. Complete local plate checks (according to EN 1993-1-5)
+4. Complete cross-section checks (according to EN 1993-1-1 6.2)
+5. Complete buckling checks (according to EN 1993-1-1 6.3)
