@@ -3,14 +3,18 @@ This document highlights how a universal steel design script based on EC3 rules 
 
 # Limitations
 * Design limitations
- ** British National Annexes are used/applied
-* Sections considered: UKBs and UKCs only
-* Class 4 sections are not accounted for
-* Only uniform members are considered (no tapered sections)
-* No allowance is made for openings (fastener holes do not exceed 0.05b, where b is the width of the flange or the height of the web, see EN 1993-1-5 2.3(1))
-* No stiffeners are designed for
-* All plates and panels are assuemed rectangular
-* Impact of connection design is not accounted for
+ * British National Annexes are used/applied
+ * No allowance is made for openings (fastener holes do not exceed 0.05b, where b is the width of the flange or the height of the web, see EN 1993-1-5 2.3(1))
+ * No stiffeners are designed for
+* Material, section and member limitations
+ * Sections considered: UKBs and UKCs only
+ * Only S355 steel considered (no other steel-grades)
+ * Either full or zero lateral restraints considered
+ * Class 4 sections are not accounted for
+ * Only uniform members are considered (no tapered sections)
+* Others
+ * All plates and panels are assumed rectangular
+ * Impact of connection design is not accounted for
 
 # Areas of conservatism
 * Section classes
